@@ -1,0 +1,58 @@
+body {
+    background-color: #F2F2F2;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #A0C3D9;
+    text-align: center;
+    margin: 0 0 20px 0;
+    padding: 15px;
+}
+
+.resources-heading, .resources {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.resources-heading {
+    font-size: 20px;
+    margin:20px auto;
+}
+
+.map {
+    background-image: url(../img/VLmapa.PNG);
+    background-repeat: no-repeat;
+    max-width: 1278px;
+    height: 542px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.mark {
+    position: absolute;
+}
+
+.starohutsky-vodopad-mark {
+    top: 317px;
+    left: 649px;
+}
+
+
+.global-footer {
+    background-color: #A0C3D9;
+    font-size: 16px;
+    color: #333;
+    text-align: right;
+    padding: 10px 30px;
+    margin-top: 40px;
+}
