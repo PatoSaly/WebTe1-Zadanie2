@@ -9,12 +9,16 @@ a {
     color: #333;
 }
 
+a:hover {
+    color: #858585;
+}
+
 .title {
     font-size: 30px;
     font-weight: 600;
     background-color: #A0C3D9;
     text-align: center;
-    margin: 0 0 20px 0;
+    margin: 0 0 40px 0;
     padding: 15px;
 }
 
@@ -28,6 +32,11 @@ a {
     margin:20px auto;
 }
 
+li {
+    padding: 4px;
+}
+
+
 .map {
     background-image: url(../img/VLmapa.PNG);
     background-repeat: no-repeat;
@@ -37,16 +46,164 @@ a {
     position: relative;
 }
 
-
 .mark {
     position: absolute;
+    z-index: 1;
 }
 
-.starohutsky-vodopad-mark {
+.info {
+    width: 350px;
+    min-height: 400px;
+    border: #333 solid 2px;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    position: absolute;
+    z-index: 2;
+}
+
+.info-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.info-image {
+    display: block;
+    width: 320px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.info-text {
+    text-align: center;
+    padding: 0 10px;
+    line-height: 20px;
+    letter-spacing: .5px;
+}
+
+#starohutsky-vodopad-mark {
     top: 317px;
     left: 649px;
 }
 
+#starohutsky-vodopad-info {
+    top: 50px;
+    left: 300px;
+    display: none;
+}
+
+#starohutsky-vodopad-mark:hover + #starohutsky-vodopad-info {
+    display: block;
+}
+
+#kamenne-more-mark {
+    top: 141px;
+    left: 651px;
+}
+
+#kamenne-more-info {
+    top: -50px;
+    left: 300px;
+    display: none;
+}
+
+#kamenne-more-mark:hover + #kamenne-more-info {
+    display: block;
+    
+}
+
+#jazero-tajch-mark {
+    top: 242px;
+    left: 760px;
+}
+
+#jazero-tajch-info {
+    top: 24px;
+    left: 411px;
+    display: none;
+}
+
+#jazero-tajch-mark:hover + #jazero-tajch-info {
+    display: block;
+    
+}
+
+#hrad-hrusov-mark {
+    top: 178px;
+    left: 375px;
+}
+
+#hrad-hrusov-info {
+    top: -50px;
+    left: 410px;
+    display: none;
+}
+
+#hrad-hrusov-mark:hover + #hrad-hrusov-info {
+    display: block;
+}
+
+#narodny-zrebcin-mark {
+    top: 337px;
+    left: 355px;
+}
+
+#narodny-zrebcin-info {
+    top: 100px;
+    left: 390px;
+    display: none;
+}
+
+#narodny-zrebcin-mark:hover + #narodny-zrebcin-info {
+    display: block;
+}
+
+#banka-lasky-mark {
+    top: 230px;
+    left: 1233px;
+}
+
+#banka-lasky-info {
+    top: -10px;
+    left: 884px;
+    display: none;
+}
+
+#banka-lasky-mark:hover + #banka-lasky-info {
+    display: block;
+}
+
+#zvero-park-mark {
+    top: 86px;
+    left: 907px;
+}
+
+#zvero-park-info {
+    top: -100px;
+    left: 557px;
+    display: none;
+}
+
+#zvero-park-mark:hover + #zvero-park-info {
+    display: block;
+}
+
+#velky-inovec-mark {
+    top: 368px;
+    left: 599px;
+}
+
+#velky-inovec-info {
+    top: 117px;
+    left: 249px;
+    display: none;
+}
+
+#velky-inovec-mark:hover + #velky-inovec-info {
+    display: block;
+}
 
 .global-footer {
     background-color: #A0C3D9;
