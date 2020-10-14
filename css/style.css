@@ -61,7 +61,7 @@ li {
     z-index: 2;
     visibility: hidden;
     opacity: 0;
-    transition: opacity .2s linear;
+    transition: visibility 0s, opacity .1s linear;
 }
 
 .mark:hover + .info {
