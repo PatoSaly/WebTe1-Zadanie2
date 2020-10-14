@@ -59,6 +59,14 @@ li {
     background-color: #F2F2F2;
     position: absolute;
     z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s linear;
+}
+
+.mark:hover + .info {
+    visibility: visible;
+    opacity: 1;
 }
 
 .info-title {
@@ -91,11 +99,6 @@ li {
 #starohutsky-vodopad-info {
     top: 50px;
     left: 300px;
-    display: none;
-}
-
-#starohutsky-vodopad-mark:hover + #starohutsky-vodopad-info {
-    display: block;
 }
 
 #kamenne-more-mark {
@@ -106,12 +109,6 @@ li {
 #kamenne-more-info {
     top: -50px;
     left: 300px;
-    display: none;
-}
-
-#kamenne-more-mark:hover + #kamenne-more-info {
-    display: block;
-    
 }
 
 #jazero-tajch-mark {
@@ -122,12 +119,6 @@ li {
 #jazero-tajch-info {
     top: 24px;
     left: 411px;
-    display: none;
-}
-
-#jazero-tajch-mark:hover + #jazero-tajch-info {
-    display: block;
-    
 }
 
 #hrad-hrusov-mark {
@@ -138,11 +129,6 @@ li {
 #hrad-hrusov-info {
     top: -50px;
     left: 410px;
-    display: none;
-}
-
-#hrad-hrusov-mark:hover + #hrad-hrusov-info {
-    display: block;
 }
 
 #narodny-zrebcin-mark {
@@ -153,11 +139,6 @@ li {
 #narodny-zrebcin-info {
     top: 100px;
     left: 390px;
-    display: none;
-}
-
-#narodny-zrebcin-mark:hover + #narodny-zrebcin-info {
-    display: block;
 }
 
 #banka-lasky-mark {
@@ -168,11 +149,6 @@ li {
 #banka-lasky-info {
     top: -10px;
     left: 884px;
-    display: none;
-}
-
-#banka-lasky-mark:hover + #banka-lasky-info {
-    display: block;
 }
 
 #zvero-park-mark {
@@ -183,11 +159,6 @@ li {
 #zvero-park-info {
     top: -100px;
     left: 557px;
-    display: none;
-}
-
-#zvero-park-mark:hover + #zvero-park-info {
-    display: block;
 }
 
 #velky-inovec-mark {
@@ -198,11 +169,6 @@ li {
 #velky-inovec-info {
     top: 117px;
     left: 249px;
-    display: none;
-}
-
-#velky-inovec-mark:hover + #velky-inovec-info {
-    display: block;
 }
 
 .global-footer {
